@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+:root {
+    --corFundo: #fcdfa6d7;
+    --cor1: #002066;
+    --cor2: #467aea59;
+    --cor3: #0048E5;
+    --cor4: #1f3566b2;
+    --cor5: #edbe858c;
+    --cor6: #F4B266;
+    --fonte-numero: 'Monoton', cursive; 
+}
+
+* {
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.685);
+}
+
+body {
+    margin: 0;
+    height: 97vh;
+    background-color: var(--corFundo);
+    background: url(/imagens/chicago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    margin: auto;
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 650px;
+    min-height: 350px;
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+.container > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container > div#contagem {
+    text-align: center;
+    color: white;
+    font-size: 15em;
+    font-family: var(--fonte-numero);
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.container > p {
+    color: white;
+    font-size: 5em;
+    margin: 0px;
+}
