@@ -15,50 +15,46 @@
 
 * {
     text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.685);
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: var(--corFundo);
     margin: 0;
-    height: 97vh;
+    height: 96.8vh;
     background-color: var(--corFundo);
     background: url(https://images.pexels.com/photos/1823681/pexels-photo-1823681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
 
 .container {
-    margin: auto;
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
-    max-width: 600px;
-    min-width: 300px;
-    max-height: 650px;
-    min-height: 350px;
-    border-radius: 9px;
-    padding: 10px;
+    border-radius: 9px; 
+    margin: 20px;
+    max-width: 800px;
     text-align: center;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.329);
 }
 
 .container > h1 {
+    padding: 10px;    
     color: white;
-    text-align: center;
-    font-size: 3em;
+    font-size: 6vh;
 }
 
 .container > div#contagem {
-    text-align: center;
+    padding: 10px;    
     color: white;
-    font-size: 15em;
+    font-size: 25vh;
     font-family: var(--fonte-numero);
-    width: 400px;
-    margin: auto;
-    border-radius: 5px;
 }
 
-.container > p {
-    color: white;
-    font-size: 5em;
-    margin: 0px;
+.container > div {
+    padding: 10px;
+    color: white;  
+    font-size: 13vh;  
 }
